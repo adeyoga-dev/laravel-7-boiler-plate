@@ -9,6 +9,9 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
 
+        <!-- Icon -->
+        <link rel="stylesheet" href="{{asset('assets/vendor/tabler-icon/tabler-icons.min.css')}}">
+
         <!-- Styles -->
         <style>
             html, body {
