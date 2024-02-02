@@ -3,7 +3,7 @@
 
 @php
 $navbar_mode = 1;
-$page = "1";
+$page = "2";
 @endphp
 
 @section('content')
@@ -14,9 +14,9 @@ $page = "1";
                 <div class="row">
                     <div class="col-xl-6 col-md-6 col-sm-4">
                         @csrf
-                        <div class="login-form-head header-text-bg">
-                            <p class="mt-5 mb-md-5"></p>
-                            <h4 class="mb-5"><h4>
+                        <div class="login-form-head">
+                            <h4 class="mb-1" style="color: #27272a">Login<h4>
+                            <h6 class="mb-1" style="color: #27272a">Welcome to the app!<h6>
                         </div>
                         @error('username')
                             <div class="alert alert-danger" role="alert">

@@ -35,9 +35,9 @@
                     @endguest
                 @else
                     @if($page == 1)
-                        <h4 class="user-name" ><a style="color: white" href="{{route('register')}}"><i class="fa-solid fa-gauge-high fa-lg"></i>&nbsp; Register</a></h4>
+                        <h4 class="user-name" ><a style="color: white" href="{{route('login')}}"><i class="fa-solid fa-gauge-high fa-lg"></i>&nbsp; Login</a></h4>
                     @else
-                        <h4 class="user-name" ><a style="color: white" href="{{route('login')}}"><i class="fa-solid fa-gauge-high fa-lg"></i>&nbsp; login</a></h4>
+                        <h4 class="user-name" ><a style="color: white" href="{{route('register')}}"><i class="fa-solid fa-gauge-high fa-lg"></i>&nbsp; Register</a></h4>
                     @endif
                 @endif
             </div>

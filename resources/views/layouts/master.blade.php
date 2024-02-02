@@ -39,7 +39,7 @@
 
         <style>
             .login-bg{
-                background:url({{asset('assets/images/bg/singin-bg.png')}}) center/cover no-repeat;
+                background:url({{asset('assets/images/bg/singin-bg.jpg')}}) center/cover no-repeat;
             }
 
             .header-login-bg{
