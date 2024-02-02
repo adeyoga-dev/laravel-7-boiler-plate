@@ -78,7 +78,7 @@
                 {{-- header --}}
                 @include('layouts.partial.header')
                 {{-- content --}}
-                <div class="@if ($navbar_mode !== 1) main-content-inner pr-4 pl-4 pb-4 @endif">
+                <div class="@if ($navbar_mode !== 1) main-content-inner pr-4 pl-4 pb-4 mt-4 @endif">
                     @yield('content')
                 </div>
             </div>

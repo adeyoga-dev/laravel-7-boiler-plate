@@ -81,6 +81,7 @@ table tr td [class^="ti-"] {
     padding-left: 0;
 }
 .card {
+    box-shadow: 0 1px 29px -6px #c8c9c9;
     box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
 }
 .card2,
@@ -369,22 +370,23 @@ table tr td [class^="ti-"] {
     display: inline-block;
 }
 .header-area {
-    padding: 0px 0px 0;
+    padding: 0px 30px 0;
     background: #fff;
     border-bottom: 1px solid #d8e3e7;
     -webkit-box-shadow: 0 1px 29px -6px #c8c9c9;
     -moz-box-shadow: 0 1px 29px -6px #c8c9c9;
 }
 .nav-btn {
+    margin: 1px 0px 0 -30px;
     background: #084169;
-    border-radius: 0px 3px 3px 0px;
-    padding: 5px 5px 7px 5px;
+    padding: 3px 5px 5px 5px ;
+    border-radius: 0 3px 3px 0;
 }
 .nav-btn span {
     display: block;
     width: 22px;
     height: 2px;
-    background: #fff;
+    background: white;
     margin: 4px 0;
     border-radius: 15px;
     -webkit-transition: 0.3s;
@@ -976,7 +978,6 @@ table.dbkit-table tr td {
 }
 .footer-area {
     text-align: center;
-    padding: 23px 0 19px;
     background: #fff;
 }
 .footer-area p {
@@ -2152,7 +2153,7 @@ table.dataTable thead th {
 /* Firefox */
 * {
     scrollbar-width: thin;
-    scrollbar-color: #397524 #DFE9EB;
+    scrollbar-color: #084169 #DFE9EB;
   }
 
   /* Chrome, Edge and Safari */

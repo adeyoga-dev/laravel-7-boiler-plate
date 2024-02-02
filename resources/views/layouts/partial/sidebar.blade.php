@@ -15,7 +15,7 @@
                     <li class="@if ($page == 3 || $page == 4) active @endif">
                         <a href="javascript:void(0)" aria-expanded="true"><i class="fa-solid fa-gauge-high fa-lg" style="color: #fff;"></i><span class="text-white"> Menu 1</span></a>
                         <ul class="collapse">
-                            <li class="navbar-line @if ($page == 3) active @endif"><a href="#" aria-expanded="false"> <span class="text-white">choose 1 @if ($page == 3) <i class="fa-solid fa-play fa-xs" style="color: #ffffff;"></i> @endif</span></a></li>
+                            <li class="navbar-line @if ($page == 3) active @endif"><a href="{{'home'}}" aria-expanded="false"> <span class="text-white">choose 1 @if ($page == 3) <i class="fa-solid fa-play fa-xs" style="color: #ffffff;"></i> @endif</span></a></li>
                             <li class="navbar-line @if ($page == 4) active @endif"><a href="#" aria-expanded="false"> <span class="text-white">choose 2 @if ($page == 4) <i class="fa-solid fa-play fa-xs" style="color: #ffffff;"></i> @endif</span></a></li>
                         </ul>
                     </li>

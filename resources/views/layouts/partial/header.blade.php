@@ -1,6 +1,6 @@
 <div class="header-area">
     <div class="row align-items-center">
-        <div class="col-md-6 clearfix mt-2 mb-3">
+        <div class="col-md-6 clearfix mt-2 mb-2">
             @if ($navbar_mode != 1)
                 <div class="nav-btn pull-left mr-3">
                     <span></span>

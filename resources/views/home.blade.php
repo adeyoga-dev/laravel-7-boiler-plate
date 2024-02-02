@@ -10,7 +10,7 @@ $page = "3";
 @endpush
 
 @section('content')
-<div class="card2  mt-4" style="background: #084169;">
+<div class="card2" style="background: #084169;">
     <div class="card-body py-2">
         <div class="form-row align-items-center">
             <div class="col-xl-12">

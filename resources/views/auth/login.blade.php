@@ -31,7 +31,7 @@ $page = "1";
                         <div class="login-form-body">
                             <label for="username">Username</label>
                             <div class="form-gp">
-                                <input id="username" type="text" @error('username') style="border-color:red;" @enderror name="username" value="{{ old('username') }}" required placeholder="Masukkan username..." autofocus autocomplete="off">
+                                <input id="username" type="text" @error('username') style="border-color:red;" @enderror name="username" value="{{ old('username') }}" required placeholder="Masukkan username..." autofocus autocomplete="username">
                                 <i class="fa-solid fa-user fa-lg" style="color: #084169">&nbsp; </i>
                             </div>
                             <label for="password">Password</label>
